@@ -1,7 +1,7 @@
 
 ![alttext](logo.png)
 
-# Unidad 4:  Gráficos y correlación - Sesión 1
+# Unidad 4:  Hipótesis y correlación - Sesión 1
 
 
 ## Ejercicio 1: Preparación del ambiente de trabajo
