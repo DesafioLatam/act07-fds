@@ -1,6 +1,5 @@
 
-<img src="logo.png",width=200,height=200>
-
+![alttext](logo.png)
 
 # Actividades Cuarta Semana
 
