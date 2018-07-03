@@ -1,9 +1,10 @@
-![alttext](logo.png)
 
-## Actividad 7: Gráficos y correlación
+<img src="logo.png",width=200,height=200>
 
 
-### Ejercicio 1: Preparacíon del ambiente de trabajo
+# Actividades Cuarta Semana
+
+## Sesión 7:  Gráficos y correlación
 
 * Importe las librerías básicas para el análisis de datos
 * Descarge e importe el archivo `nations.csv`. _warning_: va a encontrar un error en el formato ¿Cómo lo podemos solucionar?.
@@ -28,7 +29,7 @@
 * Apellidos desde la A hasta la N: Enfocarse en las variables `chldmort`, `adfert` y `life`.
 * Apellidos desde la M hasta la Z: Enfocarse en las variables `femlab`, `literacy` y `school`.
 
-### Ejercicio 2: A continuación se presenta una serie de gráficos construídos con `matplotlib`. Se le pide refactorizarlos utilizando `seaborn`.
+### A continuación se presenta una serie de gráficos construídos con `matplotlib`. Se le pide refactorizarlos utilizando `seaborn`.
 * Se presenta la función que se utilizó para construírlos. Intente llegar al resultado con mayor similitud. Comente los principales resultados de los gráficos.
 
 
@@ -102,12 +103,15 @@ grouped_scatterplot(df, 'school', 'adfert', 'region')
 
 
 
-### Ejercicio 3: Genere un heatmap entre todas las variables.
+### Genere un heatmap entre todas las variables.
 * En base a las variables de interés asignadas, comente cuáles son las principales correlaciones existentes, tomando como criterio de corte aquellas superior a .6
 
 
 
-### Ejercicio 4: En base a las principales correlaciones, sepárelas en un nuevo objeto y calcule la matriz de correlaciones para todas las regiones
+### En base a las principales correlaciones, sepárelas en un nuevo objeto y calcule la matriz de correlaciones para todas las regiones
 * _tip_: Genere una nueva tabla segmentando con la siguiente sintáxis: tmp = `df.loc[:,['variables', 'a', 'agregar']]`. No olvide agregar la variable `region`.
 * _tip_: Genere un loop para recorrer cada región y generar un heatmap.
 * Comente brevemente las principales correlaciones a través de las regiones.
+
+### Bonus Points: Grafique los diagramas de dispersión para los principales hallazgos.
+
